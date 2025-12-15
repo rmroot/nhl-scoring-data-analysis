@@ -40,7 +40,7 @@ There are two sources of data (see above)
     * BigDataBall is just the 2024-2025 season
 * We are focused on the goals scored, month and Over/Under lines for regular season games
 * Filtering, cleaning, or transformation steps:
-    - I filtered out playoff games and irregular season (COVID and lockout shortened) because they didn't align with what I was analzing.
+    - I filtered out playoff games and irregular season (COVID and lockout shortened) because they didn't align with what I was analyzing.
     - I detail in [Over Under EDA](./over-under-EDA.ipynb) the transformation steps done to combine the rows into a single game and how I parsed the lines and odds
 
 ## 4. Methods
@@ -81,11 +81,11 @@ Interestingly enough, it turns out that you can make money betting the over in O
 
 ![October Over/Under CI](results/100_Dollar_Bets_Full_Month_Confidence_Interval.png)
 
-October provided an average of %7.5 ROI
+October provided an average of 7.5% ROI
 
 ![October Over/Under ROI](results/100_Dollar_Bets_Every_Game_ROI_Table.png)
 
-I think the reason that the first month of the season Over hits more frequently has more to do with uncertainty for how every team is going to look and play at the start of a seasona and less to do with scoring being up. Oddsmakers use historical data to set lines and the lack of that in new seasons are probably the biggest influencer at play.
+I think the reason that the first month of the season Over hits more frequently has more to do with uncertainty for how every team is going to look and play at the start of a seasons and less to do with scoring being up. Oddsmakers use historical data to set lines and the lack of that in new seasons are probably the biggest influencer at play.
 
 
 ## 6. Uncertainty Estimation
@@ -96,7 +96,7 @@ I think the reason that the first month of the season Over hits more frequently 
 ### What did randomization distributions looked like:  
 The permutation test distributions were approximately normal and centered around zero, as expected under the null hypothesis. The observed test statistics were compared to these distributions to compute p-values.   
 
-**How you interpret the interval estimates:**  
+### How you interpret the interval estimates 
 For the permutation tests, if the observed difference in scoring for a month fell in the tails of the null distribution I interpreted this as evidence that scoring in that month was significantly different from the rest of the season.
 
 The 95% confidence intervals from the bootstrap simulations represent the range of total winnings we would expect if the same betting strategy were repeated many times under similar conditions. If the interval is entirely above zero, it suggests a likely profit; if it includes zero, the outcome is uncertain; and if it is entirely below zero, it suggests a likely loss.  
