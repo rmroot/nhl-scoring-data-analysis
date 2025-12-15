@@ -83,7 +83,10 @@ Interestingly enough, it turns out that you can make money betting the over in O
 
 October provided an average of %7.5 ROI
 
-![October Over/Under ROI](results/100_Dollar_Bets_Full_Month_ROI_Table.png)
+![October Over/Under ROI](results/100_Dollar_Bets_Every_Game_ROI_Table.png)
+
+I think the reason that the first month of the season Over hits more frequently has more to do with uncertainty for how every team is going to look and play at the start of a seasona and less to do with scoring being up. Oddsmakers use historical data to set lines and the lack of that in new seasons are probably the biggest influencer at play.
+
 
 ## 6. Uncertainty Estimation
 
